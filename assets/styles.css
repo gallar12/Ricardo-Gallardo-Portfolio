@@ -1,0 +1,87 @@
+*{ 
+    margin: 0;
+}
+header {
+  padding: 20px 35px;
+  background-color: blue;
+}
+  
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+  display: inline-flex;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+  
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+  
+header nav ul li {
+  display: inline;
+}
+  
+header nav ul li a {
+  margin: 0 30px;
+  font-size: 22px;
+}
+
+.hero {
+  width: 100%;
+}
+
+#about-me {
+  background-color: blue;
+  font: bold;
+  color: cornsilk;
+}
+#about-me p {
+  font-size: 25px;
+}
+
+#work {
+  background-color: blue;
+  color: yellow;
+  font-size: 30px;
+}
+
+.container-one {
+  display: inline-flex;
+}
+
+.container-two { 
+  display: inline-flex;
+      
+}
+.main-project img {
+  padding-left: 30%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.row {
+  flex: auto;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+#contact {
+  padding: 45px 10px 0 15px;
+  display: inline;
+  font-size: 30px;
+}
+#contact ul {
+  color: black;
+  float: right;
+  display: inline;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+  
